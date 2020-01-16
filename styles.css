@@ -8,8 +8,6 @@ body{
     display: flex;
 }
 
-.nav > li
-
 .brand-ctn {
     display: flex;
     justify-content: center;
