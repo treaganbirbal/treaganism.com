@@ -12,7 +12,7 @@ nav{
     border-bottom: 1px dotted wheat;
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
     height: 80px;
-    margin: -18px;
+    /* margin: -18px; */
     padding: 2% 0
 }
 
@@ -28,6 +28,9 @@ nav{
     /* width: 20px; */
     margin: -200px;
     /* padding: -220px; */
+    position: absolute;
+    top: 25%;
+    left: 50%;
 }
 
 .brand-ctn {
