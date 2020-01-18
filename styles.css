@@ -9,11 +9,13 @@ body{
 }
 
 nav{
-    border-bottom: 1px solid wheat;
+    border-bottom: 1px dotted wheat;
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
     height: 80px;
     /* margin: -18px; */
-    padding: 2% 0
+    padding: 2% 0;
+    position: fixed;
+    width: 100vw;
 }
 
  nav ul{
@@ -25,7 +27,7 @@ nav{
 }
 
 #logo{
-    /* width: 20px; */
+    width: 450px;
     margin: -200px;
     /* padding: -220px; */
     position: absolute;
@@ -33,16 +35,17 @@ nav{
     left: 50%;
 }
 
-/* #border-ctn{
-    width: 100vw;
-    border-top: 1px dotted gray;
-    border-bottom: 1px dotted gray;
-    height: 30px;
-    padding: 10px 0;
+#inner-border{
+    /* width: 100vw; */
+    border-bottom: 1px solid lightslategray;
+    height: 8px;
+    box-shadow: 5px 5px 5px #70A9A9;
+
+    /* margin-bottom: 8px; */
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
-} */
-/* 
-#outter-border{
+}
+
+ /* #outter-border{
     margin: 0;
     border-top: 1px dashed rgba(0,0,0,0.25);
     border-bottom: 1px dashed rgba(255,255,255,0.25);
@@ -52,7 +55,13 @@ nav{
     z-index: 10;
     width: 100%;
     height: 0;
-} */
+}  */
+
+#border-ctn{
+    height: 20px;
+    background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
+
+}
 
 
 
@@ -61,6 +70,6 @@ nav{
     justify-content: center;
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
     height: 100vh;
-    border-top: 1px solid wheat;
-
+    border-top: 1px dotted wheat;
+    /* margin-top: -6px; */
 }
