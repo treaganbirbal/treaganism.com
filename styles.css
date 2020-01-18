@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-    border-bottom: 1px dotted wheat;
+    border-bottom: 1px solid wheat;
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
     height: 80px;
     /* margin: -18px; */
@@ -33,9 +33,34 @@ nav{
     left: 50%;
 }
 
+/* #border-ctn{
+    width: 100vw;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    height: 30px;
+    padding: 10px 0;
+    background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
+} */
+/* 
+#outter-border{
+    margin: 0;
+    border-top: 1px dashed rgba(0,0,0,0.25);
+    border-bottom: 1px dashed rgba(255,255,255,0.25);
+    position: absolute;
+    bottom: 10px;
+    background-color: transparent;
+    z-index: 10;
+    width: 100%;
+    height: 0;
+} */
+
+
+
 .brand-ctn {
     display: flex;
     justify-content: center;
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
     height: 100vh;
+    border-top: 1px solid wheat;
+
 }
