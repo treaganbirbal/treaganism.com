@@ -4,14 +4,16 @@ body{
 
 }
 
-nav{
+.nav-list{
+    display: flex;
+}
+
+ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    list-style-type: none;
 
-nav ul{
-    display: flex;
 }
 
 .brand-ctn {
