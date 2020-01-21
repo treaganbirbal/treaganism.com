@@ -26,6 +26,10 @@ nav{
 
 }
 
+nav a {
+    font-size: 30px
+}
+
 #logo{
     width: 450px;
     margin: -200px;
@@ -71,7 +75,7 @@ nav{
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
     height: 100vh;
     border-top: 1px dotted wheat;
-    /* margin-top: -6px; */
+    padding-top: 5%;
 }
 
 @font-face{
@@ -80,9 +84,3 @@ nav{
     src: url('/Users/treaganbirbal/Downloads/cocomat-font/CocomatUltralight-3ngp.ttf')
 }
 
-h1{
-    font-family: 'Pridi';
-    font-size: 100px;
-    color: #FDF0CE;  
-    text-shadow: 
-}
