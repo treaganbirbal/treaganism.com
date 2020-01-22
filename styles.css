@@ -137,9 +137,17 @@ nav a {
     right: -40px;
 }
 
+.carousel-nav{
+    background : pink;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
 .carousel_nav_btn{
-    background: pink;
+    background:gray;
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    margin: 0 12px;
 }
