@@ -76,6 +76,7 @@ nav a {
     height: 100vh;
     border-top: 1px dotted wheat;
     padding-top: 5%;
+
 }
 
 @font-face{
@@ -90,6 +91,8 @@ nav a {
     width: 80%;
     margin: 0 auto;
     align-self: center;
+    right: 400px;
+
 }
 
 .carousel_slide img{
