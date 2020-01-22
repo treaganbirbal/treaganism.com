@@ -98,6 +98,8 @@ img{
 .carousel_track_ctn{
     background-color: lightgreen;
     padding: 10px;
+    height: 100%;
+    position: relative;
 }
 
 .carousel_track{
@@ -106,5 +108,11 @@ img{
     list-style: none;
 }
 
+.carousel_slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%
+}
 
 
