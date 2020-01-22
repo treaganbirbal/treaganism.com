@@ -91,8 +91,13 @@ nav a {
     margin: 0 auto;
 }
 
-.img{
+img{
     width: 100%;
+}
+
+.carousel_track_ctn{
+    background-color: lightgreen;
+    padding: 10px;
 }
 
 
