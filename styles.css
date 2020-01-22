@@ -135,6 +135,7 @@ nav a {
     right: -40px;
 }
 
-.carousel-nav-btn{
+.carousel_nav_btn{
+    background-color: red;
     border-radius: 50%;
 }
