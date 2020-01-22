@@ -93,13 +93,15 @@ nav a {
 }
 
 .carousel_slide img{
-    width: 100%;
-    height: 100%;
+    width: 97%;
+    height: 97%;
     object-fit: cover; 
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 .carousel_track_ctn{
-    background-color: lightgreen;
+    background-color: whitesmoke;
     height: 100%;
     position: relative;
 }
@@ -136,6 +138,8 @@ nav a {
 }
 
 .carousel_nav_btn{
-    background-color: red;
+    background: pink;
     border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
