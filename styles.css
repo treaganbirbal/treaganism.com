@@ -138,14 +138,13 @@ nav a {
 }
 
 .carousel-nav{
-    background : pink;
     display: flex;
     justify-content: center;
     padding: 10px 0;
 }
 
 .carousel_nav_btn{
-    background:gray;
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     width: 20px;
     height: 20px;
