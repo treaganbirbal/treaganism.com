@@ -20,4 +20,9 @@ slides.forEach(setSlidePosition)
 
 //when I click left move slides to left
 //when I click right move slides to right
+nextButton.addEventListener('click', (event) => {
+    const currentSlide = 
+    //move slide
+
+})
 //when I click indicators move that to slide
