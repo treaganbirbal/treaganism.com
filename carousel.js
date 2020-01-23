@@ -12,9 +12,11 @@ const slideWidth = slides[0].getBoundingClientRect().width
 // slides[1].style.left = slideWidth * 1+ 'px';
 // slides[2].style.left = slideWidth * 2 + 'px';
 //refactor above to loop thru slides and position
-slides.forEach((slide, idx) =>  {
+const setSlidePosition = (slide, idx) => {
     slide.style.left = slideWidth * idx + 'px'
-})
+}
+slides.forEach(setSlidePosition)
+
 
 //when I click left move slides to left
 //when I click right move slides to right
