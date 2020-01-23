@@ -17,27 +17,26 @@ const setSlidePosition = (slide, idx) => {
 }
 slides.forEach(setSlidePosition)
 
+const moveToSlide = (track, currentSlide, targetSlide) => {
+    track.style.transform = 'translateX(-' + targetSlide.style.left; + ')'; 
+    currentSlide.classList.remove('current_slide') 
+    targetSlide.classList.add('current_slide')
+}
+
 
 //when I click left move slides to left
 
 prevButton.addEventListener('click', (event) => {
     const currentSlide = track.querySelector('.current_slide')
-    const prevSlide = track.previousElementSibling
-    const  amountToMove = nextSlide.style.right;
-    track.style.transform = 'translateX(' + amountToMove + ')';
-    currentSlide.classList.remove('current_slide');
-    prevSlide.classList.add('current_slide');
+    const prevSlide = currentSlide.previousElementSibling;
 
+    moveToSlide(track, currentSlide, prevSlide)
 })
 //when I click right move slides to right
 nextButton.addEventListener('click', (event) => {
     const currentSlide = track.querySelector('.current_slide')
     const nextSlide = currentSlide.nextElementSibling
-    const  amountToMove = nextSlide.style.left;
-    console.log(amountToMove)
-    //move to the next slide
-    track.style.transform = 'translateX(-' + amountToMove + ')'; 
-    currentSlide.classList.remove('current_slide') 
-    nextSlide.classList.add('current_slide')
+
+    moveToSlide(track, currentSlide, nextSlide) 
 })
 //when I click indicators move that to slide
