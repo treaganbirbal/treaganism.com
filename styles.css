@@ -107,6 +107,7 @@ nav a {
     background-color: whitesmoke;
     height: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .carousel_track{
