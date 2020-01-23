@@ -21,8 +21,11 @@ slides.forEach(setSlidePosition)
 //when I click left move slides to left
 //when I click right move slides to right
 nextButton.addEventListener('click', (event) => {
-    const currentSlide = 
-    //move slide
-
+    const currentSlide = track.querySelector('.current_slide')
+    const nextSlide = currentSlide.nextElementSibling
+    const  amountToMove = nextSlide.style.left;
+    console.log(amountToMove)
+    //move to the next slide
+    track.style.transform = 'translateX(-' + amountToMove + ')';  
 })
 //when I click indicators move that to slide
