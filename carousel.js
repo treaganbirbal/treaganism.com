@@ -4,6 +4,8 @@ const  nextButton = document.querySelector('.btn-right');
 const prevButton = document.querySelector('.btn-left');
 const dotsNav = document.querySelector('.carousel-nav');
 const dots = Array.from(dotsNav.children);
+const lastSlide = slides.length-1;
+// console.log(lastSlide)
 
 const slideWidth = slides[0].getBoundingClientRect().width
 
@@ -23,6 +25,12 @@ const moveToSlide = (track, currentSlide, targetSlide) => {
     targetSlide.classList.add('current_slide')
 }
 
+const removeArrow = (currentSlide, lastSlide) => {
+    if(slides.indexOf(currentSlide) === lastSlide){
+        console.log(currentSlide)
+    }
+}
+
 
 //when I click left move slides to left
 
@@ -38,5 +46,6 @@ nextButton.addEventListener('click', (event) => {
     const nextSlide = currentSlide.nextElementSibling
 
     moveToSlide(track, currentSlide, nextSlide) 
+    removeArrow(currentSlide, lastSlide)
+
 })
-//when I click indicators move that to slide
