@@ -14,7 +14,7 @@ nav{
     height: 80px;
     /* margin: -18px; */
     padding: 2% 0;
-    position: fixed
+    position: fixed;
     width: 100vw;
 }
 
@@ -161,3 +161,7 @@ nav a {
 .carousel_nav_btn.current{
     background: rgba(0, 0, 0, 0.75);
 }
+
+.isHidden{
+    display: none;
+} 
