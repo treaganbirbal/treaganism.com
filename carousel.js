@@ -26,6 +26,8 @@ nextButton.addEventListener('click', (event) => {
     const  amountToMove = nextSlide.style.left;
     console.log(amountToMove)
     //move to the next slide
-    track.style.transform = 'translateX(-' + amountToMove + ')';  
+    track.style.transform = 'translateX(-' + amountToMove + ')'; 
+    currentSlide.classList.remove('current_slide') 
+    nextSlide.classList.add('current_slide')
 })
 //when I click indicators move that to slide
