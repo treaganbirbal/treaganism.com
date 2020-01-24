@@ -165,3 +165,12 @@ nav a {
 .isHidden{
     display: none;
 } 
+
+.about-ctn{
+    background-image :url('http://api.thumbr.it/whitenoise-361x370.png?background=e4d8b4ff&noise=626262&density=15&opacity=16');
+
+}
+
+.card-ctn{
+    
+}
