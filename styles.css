@@ -16,6 +16,7 @@ nav{
     padding: 2% 0;
     position: fixed;
     width: 100vw;
+    z-index: 1;
 }
 
  nav ul{
@@ -37,6 +38,7 @@ nav a {
     position: absolute;
     top: 25%;
     left: 50%;
+    z-index: 1;
 }
 
 #inner-border{
@@ -92,7 +94,6 @@ nav a {
     margin: 0 auto;
     align-self: center;
     right: 400px;
-
 }
 
 .carousel_slide img{
@@ -171,6 +172,18 @@ nav a {
 
 }
 
-.card-ctn{
-    
+/* .about-ctn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+} */
+
+.cards-ctn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
+.card {
+    /* border: 1px solid black; */
+    padding: 10%;
+}
+
