@@ -178,9 +178,12 @@ nav a {
     grid-gap: 5px;
 } */
 
+
 .cards-ctn{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 0, 25%;
 }
 .card {
     /* border: 1px solid black; */
