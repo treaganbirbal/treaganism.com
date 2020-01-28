@@ -77,8 +77,13 @@ nav a {
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14');
     height: 100vh;
     border-top: 1px dotted wheat;
-    padding-top: 5%;
+    padding-top: 12%;
 
+}
+
+.brand{
+    position: absolute;
+    left: 25%;
 }
 
 @font-face{
@@ -169,7 +174,6 @@ nav a {
 
 .about-ctn{
     background-image :url('http://api.thumbr.it/whitenoise-361x370.png?background=e4d8b4ff&noise=626262&density=15&opacity=16');
-
 }
 
 /* .about-ctn{
@@ -181,9 +185,11 @@ nav a {
 
 .cards-ctn{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    padding: 0, 25%;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 0 5%;
+    margin: 0 10%;
+    align-self: center;
 }
 .card {
     /* border: 1px solid black; */
@@ -212,5 +218,16 @@ nav a {
     position: relative;
     /* top: -7.5px; */
     left: 45%;
+}
+
+.about-ctn h1{
+    font-size: 75px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.section_subtitle{
+    text-align: center;
 }
 
