@@ -231,3 +231,6 @@ nav a {
     text-align: center;
 }
 
+.blog-ctn{
+    background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=#DFDCDAff&noise=626262&density=18&opacity=16 ')
+}
