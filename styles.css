@@ -231,6 +231,9 @@ nav a {
     text-align: center;
 }
 
+.portfolio-ctn{
+    background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=e88f6fff&noise=626262&density=24&opacity=21');
+}
 .blog-ctn{
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=#DFDCDAff&noise=626262&density=18&opacity=16 ')
 }
