@@ -244,10 +244,12 @@ nav a {
 
 .social-ctn{
     background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=484c52ff&noise=626262&density=33&opacity=33');
-    display: grid;
+     display: flex;
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    grid-template-rows: repeat(auto-fit, minmax(200px,1fr))
+    /* grid-template-rows: repeat(auto-fit, minmax(200px,1fr)) */
+    /* align-items: center; */
 }
 
 .icon-outer{
+    display: flex;
 }
