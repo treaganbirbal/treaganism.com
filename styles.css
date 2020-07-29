@@ -25,7 +25,6 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
-  
 }
 
 nav a {
@@ -35,15 +34,14 @@ nav a {
 }
 
 #logo {
+  box-sizing: border-box;
   width: 450px;
   margin: -200px;
-  /* padding: -220px; */
+  padding: -220px;
   position: absolute;
   top: 25%;
   left: 50%;
   z-index: 1;
-  box-sizing: border-box;    
-
 }
 
 #logo:hover {
@@ -113,11 +111,11 @@ nav a {
 }
 
 .carousel_slide img {
-  width: 97%;
-  height: 97%;
+  /* width: 97%; */
+  /* height: 97%; */
   object-fit: cover;
-  margin-left: 2%;
-  margin-top: 2%;
+  /* margin-left: 2%;
+  margin-top: 2%; */
 }
 
 .carousel_track_ctn {
