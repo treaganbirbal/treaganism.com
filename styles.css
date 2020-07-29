@@ -1,4 +1,5 @@
 body {
+  width: 100vw;
   margin: 0;
   padding: 0;
 }
@@ -9,6 +10,7 @@ body {
 
 nav {
   border-bottom: 1px dotted wheat;
+
   background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14");
   height: 80px;
   /* margin: -18px; */
@@ -26,6 +28,8 @@ nav ul {
 }
 
 nav a {
+  color: wheat;
+  text-decoration: none;
   font-size: 20px;
 }
 
@@ -38,6 +42,16 @@ nav a {
   left: 50%;
   z-index: 1;
 }
+
+#logo:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+
+/* .fix-logo{
+    position: fixed;
+    top: 30px;
+} */
 
 #inner-border {
   /* width: 100vw; */
@@ -71,6 +85,7 @@ nav a {
   justify-content: center;
   background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=74b4b4ff&noise=626262&density=85&opacity=14");
   height: 100vh;
+  width: 100vw;
   border-top: 1px dotted wheat;
   padding-top: 12%;
 }
@@ -341,6 +356,7 @@ card3-detail {
 
 h1 {
   margin-top: -30px;
+  margin-bottom: -10px;
   text-align: center;
   color: lightsalmon;
   font-size: 70px;
@@ -365,6 +381,7 @@ h1 {
 
 .project_img {
   width: 100%;
+  border-radius: 3%;
 }
 
 .card_img-4 {
@@ -399,4 +416,13 @@ a:after {
 a:hover:after {
   width: 100%;
   left: 0;
+}
+
+p {
+  font-family: "Abel", sans-serif;
+  font-size: 17px;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
 }
