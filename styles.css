@@ -25,6 +25,7 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
+  
 }
 
 nav a {
@@ -41,6 +42,8 @@ nav a {
   top: 25%;
   left: 50%;
   z-index: 1;
+  box-sizing: border-box;    
+
 }
 
 #logo:hover {
@@ -107,7 +110,6 @@ nav a {
   width: 80%;
   margin: 0 auto;
   align-self: center;
-  right: 400px;
 }
 
 .carousel_slide img {
@@ -177,9 +179,9 @@ nav a {
   background: rgba(0, 0, 0, 0.75);
 }
 
-.isHidden {
+/* .isHidden {
   display: none;
-}
+} */
 
 .about-ctn {
   background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=e4d8b4ff&noise=626262&density=15&opacity=16");
