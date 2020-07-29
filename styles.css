@@ -111,11 +111,11 @@ nav a {
 }
 
 .carousel_slide img {
-  /* width: 97%; */
-  /* height: 97%; */
+  width: 97%;
+  height: 97%;
   object-fit: cover;
-  /* margin-left: 2%;
-  margin-top: 2%; */
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
 .carousel_track_ctn {
