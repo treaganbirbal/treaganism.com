@@ -1,5 +1,18 @@
-const page = document.querySelector("body");
+const logo = document.getElementById("logo");
 
-page.addEventListener("scroll", (event) => {
-  console.log(event);
+logo.addEventListener("onscroll", (event) => {
+  console.log(event.target.scrollHeight + 50);
 });
+
+window.onscroll = function () {
+  myFunction();
+};
+
+function myFunction() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    document.getElementById("logo").className = "logoSmallerAnime";
+    document.getElementById("logo").removeAttribute("id");
+  } else {
+    document.getElementsByTagName("img"[0]).className = "logoLargerAnime"
+  }
+}
