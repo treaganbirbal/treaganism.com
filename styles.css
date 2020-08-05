@@ -4,6 +4,9 @@ body {
   padding: 0;
 }
 
+.main {
+  width: 100%;
+}
 .nav-list {
   display: flex;
 }
@@ -111,7 +114,9 @@ nav a {
 
 .brand {
   position: absolute;
-  left: 25%;
+  /* left: 25%; */
+  width: 80%;
+  /* align-self: center; */
 }
 
 @font-face {
@@ -215,7 +220,7 @@ nav a {
     grid-gap: 5px;
 } */
 .cards-ctn {
-  width: 100vw;
+  /* width: 100vw; */
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -407,7 +412,7 @@ h1 {
 }
 
 .card_img-4 {
-  height: 128px;
+  height: 140px;
 }
 
 #projects a {
