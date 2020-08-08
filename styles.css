@@ -115,7 +115,7 @@ nav a {
 .brand {
   position: absolute;
   /* left: 25%; */
-  width: 80%;
+  /* width: 80%; */
   /* align-self: center; */
 }
 
@@ -236,6 +236,10 @@ nav a {
   margin: 0 10%;
   align-self: center;
 }
+
+.portfolio-ctn .carousel-ctn{
+  /* max-height: 500px; */
+}
 .card {
   /* border: 1px solid black; */
   padding: 10%;
@@ -295,24 +299,31 @@ nav a {
 }
 
 .social-ctn {
-  display: none;
+  /* display: none; */
   background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=484c52ff&noise=626262&density=33&opacity=33");
   /* display: flex; */
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   /* grid-template-rows: repeat(auto-fit, minmax(200px,1fr)) */
-  /* align-items: center; */
+  /* justify-content: center;
+  flex-direction: row; */
 }
 
-.icon-outer {
+.social-ctn img {
+  width: 60px;
+  max-height: 60px;
+}
+
+
+.icon_ctn {
   display: flex;
+  align-items: center;
+
 }
 
-.portfolio-ctn > .card-container {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5%; */
 
-  /* align-content: center; */
+.portfolio-ctn .card {
+  max-height: 80%;
+  overflow: scroll;
 }
 .card-1,
 .card-2,
@@ -428,7 +439,7 @@ h1 {
   padding: 15px 20px;
   position: relative;
 }
-a:after {
+/* a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -443,13 +454,13 @@ a:after {
 a:hover:after {
   width: 100%;
   left: 0;
-}
+} */
 
 p {
   font-family: "Abel", sans-serif;
   font-size: 17px;
 }
 
-h3 {
+h3, h2 {
   font-family: "Raleway", sans-serif;
 }
