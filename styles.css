@@ -47,11 +47,6 @@ nav a {
   z-index: 1;
 }
 
-#logo:hover {
-  transform: translateY(-25px);
-  transition: 1s;
-}
-
 .logoSmallerAnime {
   /* box-sizing: border-box; */
   width: 450px;
@@ -288,6 +283,10 @@ nav a {
   padding-bottom: 80px;
   background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=e88f6fff&noise=626262&density=24&opacity=21");
 }
+
+.portfolio-ctn > img{
+  margin-left: 50%;
+}
 .blog-ctn {
   display: none;
   background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=#DFDCDAff&noise=626262&density=18&opacity=16 ");
@@ -333,13 +332,20 @@ input[type="text"] {
   transition: background-color 0.5s ease;
 }
 textarea {
+  font-family: "Josefin Sans", sans-serif;
   min-width: 400px;
   min-height: 200px;
+  border: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+  box-sizing: border-box;
 }
 button {
   position: relative;
   height: 50px;
-  float: right;
+  /* float: right; */
 }
 
 .social-ctn {
@@ -371,6 +377,11 @@ button {
   transform: translateY(-8px);
   transition-duration: 1s;
   transition-timing-function: ease;
+}
+
+.social_heading{
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-ctn .card {
