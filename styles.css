@@ -284,7 +284,7 @@ nav a {
   background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=e88f6fff&noise=626262&density=24&opacity=21");
 }
 
-.portfolio-ctn > img{
+.portfolio-ctn > img {
   margin-left: 50%;
 }
 .blog-ctn {
@@ -379,7 +379,7 @@ button {
   transition-timing-function: ease;
 }
 
-.social_heading{
+.social_heading {
   display: flex;
   justify-content: center;
 }
@@ -410,8 +410,32 @@ button {
   width: 100%;
 }
 
-button {
-  padding: 14px;
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: #74B4B4;
+  font-size: 16px;
+  font-weight: 300px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 0px auto;
+  border-radius: 20px;
+  box-shadow: 0 6px #199696;
+}
+
+.btn:hover {
+  box-shadow: 0 4px #199696;
+  top: 2px;
+}
+
+.btn:active {
+  box-shadow: 0 0px #efa424;
+  top: 6px;
 }
 
 .banner {
