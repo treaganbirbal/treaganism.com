@@ -1,4 +1,6 @@
 const logo = document.getElementById("logo");
+const icons = document.getElementsByClassName("icon-inner");
+
 
 logo.addEventListener("onscroll", (event) => {
   console.log(event.target.scrollHeight + 50);
@@ -13,6 +15,8 @@ function myFunction() {
     document.getElementById("logo").className = "logoSmallerAnime";
     document.getElementById("logo").removeAttribute("id");
   } else {
-    document.getElementsByTagName("img"[0]).className = "logoLargerAnime"
+    document.getElementsByTagName("img"[0]).className = "logoLargerAnime";
   }
 }
+
+
