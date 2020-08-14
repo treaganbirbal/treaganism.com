@@ -556,7 +556,7 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   body {
-    max-width: 100%;
+    width: 100%;
   }
   .brand img {
     /* display: none; */
@@ -567,8 +567,13 @@ h2 {
     margin-top:30%;
     width: 100%;
   }
+  .about-ctn{
+    width: 100vw;
+    height: 100%;
+  }
   .portfolio-ctn {
     width: 100vw;
+    height: 100%;
   }
   .social-ctn {
     display: flex;
