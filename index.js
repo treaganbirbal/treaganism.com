@@ -1,7 +1,6 @@
 const logo = document.getElementById("logo");
 const icons = document.getElementsByClassName("icon-inner");
 
-
 logo.addEventListener("onscroll", (event) => {
   console.log(event.target.scrollHeight + 50);
 });
@@ -19,4 +18,11 @@ function myFunction() {
   }
 }
 
-
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
