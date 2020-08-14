@@ -9,20 +9,20 @@ window.onscroll = function () {
   myFunction();
 };
 
-function myFunction() {
-  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-    document.getElementById("logo").className = "logoSmallerAnime";
-    document.getElementById("logo").removeAttribute("id");
-  } else {
-    document.getElementsByTagName("img"[0]).className = "logoLargerAnime";
-  }
-}
+// function myFunction() {
+//   if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+//     document.getElementById("logo").className = "logoSmallerAnime";
+//     document.getElementById("logo").removeAttribute("id");
+//   } else {
+//     document.getElementsByTagName("img"[0]).className = "logoLargerAnime";
+//   }
+// }
 
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+// function myFunction() {
+//   var x = document.getElementById("myTopnav");
+//   if (x.className === "topnav") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "topnav";
+//   }
+// }
