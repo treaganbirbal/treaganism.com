@@ -15,24 +15,26 @@
 
 <body>
     <main class='main'>
-        <div class='nav topnav' id='myTopnav'>
+        <div class='nav'>
             <nav>
                 <ul id='nav-list'>
-                    <a href=".about-ctn">
-                        <li>About Me</li>
-                    </a>
-                    <a href='#'>
-                        <li>Portfolio</li>
-                    </a>
-                    <a href='#'>
-                        <li>Publications</li>
-                    </a>
-                    <a href='#'>
-                        <li>Connect</li>
-                    </a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
+                    <div class="first_half_nav half_nav">
+                        <a href="#about-ctn">
+                            <li>About Me</li>
+                        </a>
+                        <a href='#portfolio-ctn'>
+                            <li>Portfolio</li>
+                        </a>
+                    </div>
+                    <div class="second_half_nav half_nav">
+                        <a href='#'>
+                            <li>Publications</li>
+                        </a>
+                        <a href='#social-ctn'>
+                            <li>Connect</li>
+                        </a>
+                    </div>
+
                 </ul>
             </nav>
         </div>
@@ -45,7 +47,7 @@
         <!-- <div class='logo-ctnr'> -->
         <img id='logo' src="./assets/LogoMakr_2aAuMz.png" alt="treaganism_logo">
         <!-- </div> -->
-        <div class='brand-ctn'>
+        <div class='brand-ctn' id='brand-ctn'>
             <div class='brand'>
                 <img src="https://fontmeme.com/permalink/200121/9fbe23f154a8b10f56ad0c485ce2b77f.png" alt="retro-fonts"
                     border="0" />
@@ -127,7 +129,7 @@
             </div>
 
         </div>
-        <div class='about-ctn'>
+        <div class='about-ctn' id='about-ctn'>
             <div class="section_heading about_heading"></div>
             <h1><img src="https://fontmeme.com/permalink/200127/8eb676914164a6a07423cc189f9818d1.png" alt="retro-fonts"
                     border="0"></h1>
@@ -168,19 +170,27 @@
                     <img class='card_img card_img-3' src="https://image.flaticon.com/icons/svg/2233/2233032.svg" />
                     <h3>Traveler</h3>
                     <article>
-                        <p>Trip planning is equal parts therapeutic, educational and just plain ol' fun.  I enjoy learning about history, new cultures, food, and geography and I feel that the best way is to go out and (sometimes) get lost in a different place or in the place you've known all your life but see it through a different lense.</p>
+                        <p>Trip planning is equal parts therapeutic, educational and just plain ol' fun. I enjoy
+                            learning about history, new cultures, food, and geography and I feel that the best way is to
+                            go out and (sometimes) get lost in a different place or in the place you've known all your
+                            life but see it through a different lense.</p>
                     </article>
                 </div>
                 <div class='card card-4'>
                     <img class='card_img card_img-4' src="https://image.flaticon.com/icons/svg/2307/2307968.svg" />
                     <h3>People Person</h3>
                     <article>
-                        <p>I'm super accessible and open.  One of my passions in life is connecting with new people and learning about their stories and their dreams and see how I can help them.   I've always had a skill for communication and I'm usually the weirdo on the street to that sparks up a conversation with a total stranger (I can imagine my parents cringing at me talking to strangers as a kid).  Whether it's debugging or grabbing drinks (why not both?), the human connection matters. </p>
+                        <p>I'm super accessible and open. One of my passions in life is connecting with new people and
+                            learning about their stories and their dreams and see how I can help them. I've always had a
+                            skill for communication and I'm usually the weirdo on the street to that sparks up a
+                            conversation with a total stranger (I can imagine my parents cringing at me talking to
+                            strangers as a kid). Whether it's debugging or grabbing drinks (why not both?), the human
+                            connection matters. </p>
                     </article>
                 </div>
             </div>
         </div>
-        <div class='portfolio-ctn'>
+        <div class='portfolio-ctn' id='portfolio-ctn'>
             <div class='section_heading portfolio_heading'>
                 <img src="https://fontmeme.com/permalink/200808/eeca7b4ab33f0cc0c0bcf8a8d6b47873.png" alt="">
                 <span class='line_design'><strong>____</strong></span> <span class='xxx'>xxx</span> <span
@@ -320,7 +330,7 @@
                     </form>
                 </div>
             </div>
-            <div class="social-ctn">
+            <div class="social-ctn" id='social-ctn'>
                 <div class='section_heading social_heading'>
                     <a href="https://fontmeme.com/fonts/terminal-day-font/"><img
                             src="https://fontmeme.com/permalink/200808/57b7f946db5724bfa118d98b9a962373.png"

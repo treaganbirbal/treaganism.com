@@ -36,6 +36,16 @@ nav a {
   font-size: 20px;
 }
 
+.half_nav{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.half_nav li {
+  padding: 8px;
+}
+
 #logo {
   box-sizing: border-box;
   width: 450px;
@@ -108,10 +118,18 @@ nav a {
 }
 
 .brand {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   /* left: 25%; */
   /* width: 80%; */
   /* align-self: center; */
+  justify-content: center;
+
+}
+
+.brand h3{
+  align-self: center;
 }
 
 @font-face {
@@ -126,6 +144,7 @@ nav a {
   width: 80%;
   margin: 0 auto;
   align-self: center;
+  margin-top: 7%;
 }
 
 .carousel_slide img {
@@ -284,8 +303,8 @@ nav a {
   background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=e88f6fff&noise=626262&density=24&opacity=21");
 }
 
-.portfolio-ctn > img {
-  margin-left: 50%;
+.portfolio-heading > img {
+  margin-left: -50%;
 }
 .blog-ctn {
   display: none;
@@ -557,6 +576,7 @@ h2 {
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
+    justify-content: center;
   }
   .brand img {
     /* display: none; */
@@ -564,10 +584,10 @@ h2 {
     max-width: 100vw;
   }
   .carousel-ctn {
-    margin-top:30%;
+    margin-top: 30%;
     width: 100%;
   }
-  .about-ctn{
+  .about-ctn {
     width: 100vw;
     height: 100%;
   }
@@ -582,8 +602,8 @@ h2 {
   #logo {
     /* width: 80%; */
     position: absolute;
-justify-self: center;    
-top: 190px;
+    justify-self: center;
+    top: 190px;
     z-index: 10;
   }
   .contact-ctn img {
@@ -623,7 +643,7 @@ top: 190px;
   .icon_ctn img {
     width: 80%;
   }
-  nav{
+  nav {
     display: none;
   }
 }
@@ -641,9 +661,9 @@ top: 190px;
 .topnav {
   /* overflow: hidden;
   background-color: #333; */
-  border-bottom: 1px dotted wheat;
-}
-
+/* border-bottom: 1px dotted wheat; */
+/* } */
+/* 
 .topnav a {
   float: left;
   display: block;
